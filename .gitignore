@@ -1,0 +1,23 @@
+# Python
+**/venv/
+**/.venv/
+__pycache__/
+*.pyc
+
+# Secrets (any .env file; .env.example files are committed)
+**/.env
+**/.env.local
+*.pem
+*.key
+
+# MCP server is NOT in this repository (it runs on the restaurant PC and holds the database logic)
+mcp-server/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+voice-agent.zip
+
+# Logs
+**/logs/

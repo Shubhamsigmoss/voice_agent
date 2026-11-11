@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+logs/
+local.settings.json
+setup.bat
+start.bat

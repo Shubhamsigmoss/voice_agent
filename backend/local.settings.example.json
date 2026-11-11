@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "LLM_API_KEY": "gsk_your_groq_key_here",
+    "MCP_SERVER_URL": "http://127.0.0.1:8001/mcp",
+    "MCP_AUTH_TOKEN": "same_value_as_mcp_server",
+    "CORS_ORIGINS": "http://localhost:5173",
+    "LOG_FILE": "",
+    "LOG_FORMAT": "text"
+  }
+}
